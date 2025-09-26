@@ -13,6 +13,6 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('tes zt V M')
+    print_hi('teszt VM')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
