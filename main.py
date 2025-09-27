@@ -1,4 +1,4 @@
-# Ez az első módosítás
+'''# Ez az első módosítás
 
 # This is a sample Python script.
 
@@ -14,6 +14,13 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('VM')
+'''
 
+import p022
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+a = 10
+b = 26
+
+eredmeny = p022.negyszog(a, b)
+print (f"A {eredmeny[2]} kerület =", eredmeny[0])
+print (f"A {eredmeny[2]} terület =", eredmeny[1])
