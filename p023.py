@@ -1,9 +1,7 @@
 '''Rajzol egy 150 pontos egyenlő szárú háromszöget a képernyő közepére
 A színe legyen piros,
-a rajzolás induljon az a betűre,
+a rajzolás induljon az h betűre,
  a kilépés q betűre'''
-
-import turtle
 
 import turtle
 
@@ -23,7 +21,7 @@ def kilep():
     turtle.bye()
 
 turtle.listen()
-turtle.onkey(haromszog, "a")
+turtle.onkey(haromszog, "h")
 turtle.onkey(kilep, "q")
 turtle.mainloop()
 
